@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AA FlightBooking Automation Test Suite]">
+  <test thread-count="5" name="AA_FlightBooking_TestCase_002(failed)">
+    <parameter name="password" value="1234567890"/>
+    <parameter name="username" value="Sampleone"/>
+    <parameter name="lastname" value="login"/>
+    <classes>
+      <class name="com.AAflightBooking.TestCases.LoginPageTest">
+        <methods>
+          <include name="validUserShouldLoginUsingValidCredentialsTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.AAflightBooking.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- AA_FlightBooking_TestCase_002(failed) -->
+</suite> <!-- Failed suite [AA FlightBooking Automation Test Suite] -->
